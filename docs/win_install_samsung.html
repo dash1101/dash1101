@@ -83,7 +83,7 @@
     <!-- STEP 3 -->
     <div class="step">
       <div class="step-text">
-        <strong>3.</strong> Select your <strong>Samsung Fit USB drive</strong> as the first boot device.
+        <strong>3.</strong> Set the <strong>Samsung Fit USB drive</strong> as the first boot device.
       </div>
       <img src="placeholder.jpg" alt="Step 3 Image" />
     </div>
@@ -107,7 +107,7 @@
     <!-- STEP 6 -->
     <div class="step">
       <div class="step-text">
-        <strong>6.</strong> Select <strong>Install Now</strong>.
+        <strong>6.</strong> When asked to choose keyboard/language settings, click <strong>Next</strong>.
       </div>
       <img src="placeholder.jpg" alt="Step 6 Image" />
     </div>
@@ -115,7 +115,7 @@
     <!-- STEP 7 -->
     <div class="step">
       <div class="step-text">
-        <strong>7.</strong> If asked for a product key, press <strong>I don’t have a product key</strong>.
+        <strong>7.</strong> Accept the <strong>License Agreement (EULA)</strong> and press <strong>Next</strong>.
       </div>
       <img src="placeholder.jpg" alt="Step 7 Image" />
     </div>
@@ -123,7 +123,7 @@
     <!-- STEP 8 -->
     <div class="step">
       <div class="step-text">
-        <strong>8.</strong> If prompted to choose a version, select <strong>Windows 11 Pro</strong>.
+        <strong>8.</strong> On “Where do you want to install Windows?”, press <strong>Shift + F10</strong> to open Command Prompt.
       </div>
       <img src="placeholder.jpg" alt="Step 8 Image" />
     </div>
@@ -131,20 +131,24 @@
     <!-- STEP 9 -->
     <div class="step">
       <div class="step-text">
-        <strong>9.</strong> On “Where do you want to install Windows?”, press <strong>Shift + F10</strong> to open Command Prompt.
-      </div>
-      <img src="placeholder.jpg" alt="Step 9 Image" />
-    </div>
-
-    <!-- STEP 10 -->
-    <div class="step">
-      <div class="step-text">
-        <strong>10.</strong> Type each of these one at a time:
+        <strong>9.</strong> Type these commands one at a time:
         <ul>
           <li><code>diskpart</code></li>
           <li><code>list disk</code></li>
         </ul>
-        Send me the list so I can confirm which disk to choose.
+        Tell me which disks appear so I can confirm the correct one.
+      </div>
+      <img src="placeholder.jpg" alt="Step 9 Image" />
+    </div>
+
+    <!-- STEP 10 (merged version) -->
+    <div class="step">
+      <div class="step-text">
+        <strong>10.</strong> After I tell you the correct disk number, run:
+        <ul>
+          <li><code>sel dis 0</code> ← replace 0 with the number I tell you</li>
+          <li><code>clean</code></li>
+        </ul>
       </div>
       <img src="placeholder.jpg" alt="Step 10 Image" />
     </div>
@@ -152,11 +156,7 @@
     <!-- STEP 11 -->
     <div class="step">
       <div class="step-text">
-        <strong>11.</strong> After I confirm the correct disk, type:
-        <ul>
-          <li><code>sel dis #</code></li>
-          <li><code>clean</code></li>
-        </ul>
+        <strong>11.</strong> Close Command Prompt and press <strong>Refresh</strong>.
       </div>
       <img src="placeholder.jpg" alt="Step 11 Image" />
     </div>
@@ -164,7 +164,7 @@
     <!-- STEP 12 -->
     <div class="step">
       <div class="step-text">
-        <strong>12.</strong> Close Command Prompt and press <strong>Refresh</strong>.
+        <strong>12.</strong> Select the <strong>unallocated space</strong> on the drive and click <strong>Next</strong>.
       </div>
       <img src="placeholder.jpg" alt="Step 12 Image" />
     </div>
@@ -172,17 +172,9 @@
     <!-- STEP 13 -->
     <div class="step">
       <div class="step-text">
-        <strong>13.</strong> Select the <strong>unallocated space</strong> and click <strong>Next</strong>.
+        <strong>13.</strong> Windows will now install automatically.
       </div>
       <img src="placeholder.jpg" alt="Step 13 Image" />
-    </div>
-
-    <!-- STEP 14 -->
-    <div class="step">
-      <div class="step-text">
-        <strong>14.</strong> Windows will now install automatically.
-      </div>
-      <img src="placeholder.jpg" alt="Step 14 Image" />
     </div>
 
     <div class="note">
